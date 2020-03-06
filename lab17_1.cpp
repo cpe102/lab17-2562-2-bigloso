@@ -56,8 +56,8 @@ int main(){
                 asd = toopper_for_str(asd);
                 for(int k=0;k<26;k++){
                     qwe = toopper_for_str(nam[k]);
-                    if(asd.substr(5,qwe.size()-5) == qwe){
-                        cout << nam[k] <<"'s"<< "grade =" << grade[k] << endl;
+                    if(asd.substr(5,asd.size()-5) == qwe){
+                        cout << nam[k] <<"'s "<< "grade = " << grade[k] << endl;
                     }
                 }
             }
